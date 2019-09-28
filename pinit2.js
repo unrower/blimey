@@ -35,7 +35,7 @@ return null}else if(els.length>1){noteError({type:'select:too-many:by-query',sel
 return els[0]}
 if(els.length>1){noteError({type:'select:too-many:by-attribute',selector:selector})}
 return els[0]}}());(function(){'use strict'
-var prevEls={}
+var prevEls={} 
 CloudflareApps.createElement=function createElement(options,prevEl){options=options||{}
 CloudflareApps.internal.markSelectors()
 try{if(prevEl&&prevEl.parentNode){var replacedEl
